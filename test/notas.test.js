@@ -22,3 +22,18 @@ describe('clasificar', () => {
     assert.throws(() => clasificar(11), RangeError);
   });
 });
+
+
+import { promedio } from '../src/notas.js'; // asegurate de exportarlo luego
+
+describe('promedio', () => {
+  test('[6, 8, 10] da 8', () => {
+    assert.equal(promedio([6, 8, 10]), 8);
+  });
+  test('una sola nota devuelve esa nota', () => {
+    assert.equal(promedio([7]), 7);
+  });
+  test('lista vacía lanza error', () => {
+    assert.throws(() => promedio([]));
+  });
+});
