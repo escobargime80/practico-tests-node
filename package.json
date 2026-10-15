@@ -1,0 +1,19 @@
+{
+  "name": "practico-tests-node",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/escobargime80/practico-tests-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/escobargime80/practico-tests-node/issues"
+  },
+  "homepage": "https://github.com/escobargime80/practico-tests-node#readme"
+}
